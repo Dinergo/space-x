@@ -31,13 +31,11 @@ If you've previously installed create-react-app globally via npm install -g crea
 When it's done you open your terminal and then type <br>
 
  1️⃣ git clone {the url to the GitHub repo} 
-
 This clones the repo <br> 
 
  2️⃣ cd into the new folder and type <br>
 
  3️⃣ $ npm install
-
 This installs the required dependencies <br>
 
 To run the React project.<br>

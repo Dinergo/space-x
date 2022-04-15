@@ -26,6 +26,14 @@ This project is supposed to :  show you a view to see lauches of Rockets , and a
 
 :electron: Prerequisites : <br>
 install Node.js v16.14.2, you can do it on  [Nodejs website](https://nodejs.org/en/download/) <br>
+
+ ```shell
+    $ node --version
+    v16.13.2
+
+    $ npm --version
+    8.1.2
+    ```
 If you've previously installed create-react-app globally via npm install -g create-react-app, we recommend you uninstall the package using npm uninstall 
 -g create-react-app or yarn global remove create-react-app to ensure that npx always uses the latest version. <br>
 

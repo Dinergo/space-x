@@ -1,6 +1,13 @@
 <br/>
 <p align="center">
     <a 
+        <img width="50%" src="https://images2.imgbox.com/21/dd/mwbg6Lm9_o.png" alt="logo">
+    </a>
+</p>
+
+<br/>
+<p align="center">
+    <a 
         <img width="50%" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/06/europe_s_rockets/19421217-6-eng-GB/Europe_s_rockets_pillars.jpg" alt="rockets illustration">
     </a>
 </p>

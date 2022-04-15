@@ -9,7 +9,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      lancement : '',
+      lancement :  {},
       lancements : ''
     }
 
@@ -17,15 +17,16 @@ class App extends React.Component {
 
    componentDidMount() {
     
+    console.log("component app did mount");
 
     axios.get('https://api.spacexdata.com/v3/launches/1')
     .then( (response) => {
-      console.log(response);
+      // console.log(response);
       
       this.setState((state) => ({ lancement : response.data}));
-      console.log("le data transféré dans Lancement");
+      // console.log("le data transféré dans Lancement");
       console.log(this.lancement);
-      console.log("fin de la requete unique");
+      // console.log("fin de la requete unique");
     });
     
     // la requete pour avoir tous les lancements
@@ -47,7 +48,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
          {this.state.lancement.flight_number}
-        <Launch data = {this.state.lancement}/>
+         <Launch data = {this.state.lancement}/>
         </header>
       </div>
     );

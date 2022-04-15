@@ -4,7 +4,6 @@
         <img width="50%" src="https://images2.imgbox.com/21/dd/mwbg6Lm9_o.png" alt="logo">
     </a>
 </p>
-
 <br/>
 <p align="center">
     <a 
@@ -68,4 +67,4 @@ If you already found a solution to your problem, **we would love to review your 
 
 ## 📘&nbsp; License
 
-kdsjkldsjqlkdjlqkjdq
+This project is licensed under the terms of the GPL Open Source license and is available for free.

@@ -30,18 +30,18 @@ If you've previously installed create-react-app globally via npm install -g crea
 
 When it's done you open your terminal and then type <br>
 
-## 1️⃣&nbsp$ git clone {the url to the GitHub repo}
+ 1️⃣ git clone {the url to the GitHub repo} 
 
-This clones the repo <br>
+This clones the repo <br> 
 
-## 2️⃣&nbsp$ cd into the new folder and type 
+ 2️⃣ cd into the new folder and type <br>
 
-## 3️⃣&nbsp$ $ npm install
+ 3️⃣ $ npm install
 
 This installs the required dependencies <br>
 
 To run the React project.<br>
-## 4️⃣&nbsp$ $ npm start
+ 4️⃣ $ npm start
 
 ## ❤️&nbsp; Community and Contributions
 

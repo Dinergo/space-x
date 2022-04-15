@@ -29,7 +29,7 @@ The goal was to be more familiar with React and use some API  👨‍🎓👩‍
 </p>
 <br/>
 
-We used 
+This app is made to be simple and to show a view of rockets launches and capsules
 
 ## 🚀&nbsp; Installation and Documentation
 
@@ -53,16 +53,17 @@ To run the React project.<br>
 
 ## ❤️&nbsp; Community and Contributions
 
-jdhsqjdhsqjkhdlksqjlkdjlksqjdlkjqslkdjksqjdieuieiezhjhjdsqhjsd
+We are committed to a fully transparent development process and **highly appreciate any contributions**. Whether you are helping us fixing bugs, proposing new feature, improving our documentation 😀
 
 ## 📫&nbsp; Have a question? Want to chat? Ran into a problem?
 
-We are happy to answer your questions via [GitHub Discussions] sdlkdslmskdsq
+We are happy to answer your questions via [Dinergo/Space-x](https://github.com/Dinergo/space-x/discussions/4)
 
 
 ## 🤝&nbsp; Found a bug? Missing a specific feature?
 
-Feel free to **file a new issue** with a respective title and description on the the [GIT LINK APP] repository. If you already found a solution to your problem, **we would love to review your pull request**! :octocat:
+Feel free to **file a new issue** with a respective title and description on the the [Dinergo/Space-x](https://github.com/Dinergo/space-x/discussions/4) repository. 
+If you already found a solution to your problem, **we would love to review your pull request**! 🙌
 
 
 ## 📘&nbsp; License

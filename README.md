@@ -48,17 +48,12 @@ jdhsqjdhsqjkhdlksqjlkdjlksqjdlkjqslkdjksqjdieuieiezhjhjdsqhjsd
 
 ## 📫&nbsp; Have a question? Want to chat? Ran into a problem?
 
-We are happy answer your questions via [GitHub Discussions] sdlkdslmskdsq
+We are happy to answer your questions via [GitHub Discussions] sdlkdslmskdsq
 
 
 ## 🤝&nbsp; Found a bug? Missing a specific feature?
 
-Feel free to **file a new issue** with a respective title and description on the the [GIT LINK APP] repository. If you already found a solution to your problem, **we would love to review your pull request**! 
-
-
-## ✅&nbsp; Requirements
-
-Our App requires a kdjslkqjkdlsjqkdjsqkjkldsjqkdjskjlsdq
+Feel free to **file a new issue** with a respective title and description on the the [GIT LINK APP] repository. If you already found a solution to your problem, **we would love to review your pull request**! :octocat:
 
 
 ## 📘&nbsp; License

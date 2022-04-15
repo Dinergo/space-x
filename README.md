@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-    <a 
+    <a>
         <img width="50%" src="https://images2.imgbox.com/21/dd/mwbg6Lm9_o.png" alt="logo">
     </a>
 </p>

@@ -19,7 +19,7 @@
 <br/>
 
 This App was made by Amandine QUANTIN, Ted-William AMOUSSOU and Maroua ELOUASSAR for a school project.
-The goal was to be more familiar with React and use some API
+The goal was to be more familiar with React and use some API  👨‍🎓👩‍🎓
 
 # This is what it's supposed to look like :
 

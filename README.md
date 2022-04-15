@@ -24,9 +24,24 @@ This project is supposed to :  show you a view to see lauches of Rockets , and a
 
 ## 🚀&nbsp; Installation and Documentation
 
-jfhqjksflsqkmdsqkdlskqmldqs
-slkdlmksqldksqkdsmlkdlmskqlmdsq
+Prerequisites : <br>
+install Node.js v16.14.2, you can do it on  [Nodejs website](https://nodejs.org/en/download/) <br>
+If you've previously installed create-react-app globally via npm install -g create-react-app, we recommend you uninstall the package using npm uninstall -g create-react-app or yarn global remove create-react-app to ensure that npx always uses the latest version. <br>
 
+When it's done you open your terminal and then type <br>
+
+## 1️⃣&nbsp$ git clone {the url to the GitHub repo}
+
+This clones the repo <br>
+
+## 2️⃣&nbsp$ cd into the new folder and type 
+
+## 3️⃣&nbsp$ $ npm install
+
+This installs the required dependencies <br>
+
+To run the React project.<br>
+## 4️⃣&nbsp$ $ npm start
 
 ## ❤️&nbsp; Community and Contributions
 

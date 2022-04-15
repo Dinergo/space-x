@@ -37,7 +37,6 @@ This clones the repo <br>
 
  3️⃣ $ npm install
 This installs the required dependencies <br>
-
 To run the React project.<br>
  4️⃣ $ npm start
 

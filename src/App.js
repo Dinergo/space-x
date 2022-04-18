@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Launch from "./component-launch/Launch.js";
 import React from 'react';
@@ -12,8 +11,8 @@ class App extends React.Component {
     this.state = {
       lancement_unique :  {},
       lancements : [],
-      capsule : {},
-      capsule : []
+      capsule_unique : {},
+      capsules : []
     }
 
   }
@@ -26,7 +25,7 @@ class App extends React.Component {
     .then( (response) => {
       // console.log(response);
       
-      this.setState((state) => ({ lancement_unique : response.data}));
+      this.setState(() => ({ lancement_unique : response.data}));
       // console.log("le data transféré dans Lancement");
      // console.log(this.lancement);
       // console.log("fin de la requete unique");
@@ -39,8 +38,7 @@ class App extends React.Component {
     axios.get('https://api.spacexdata.com/v3/launches')
     .then( (response) => {
      // console.log(response);
-      
-      this.setState((state) => ({ lancements : response.data}));
+      this.setState(() => ({ lancements : response.data}));
      // console.log(this.lancement);
      // console.log("fin de la requete all");
     });
@@ -53,13 +51,24 @@ class App extends React.Component {
     .then( (response) => {
       // console.log(response);
       
-      this.setState((state) => ({ capsule : response.data}));
+      this.setState(() => ({ capsule_unique : response.data}));
       // console.log("le data transféré dans Lancement");
      // console.log(this.lancement);
       // console.log("fin de la requete unique");
     });
 
 
+
+    // requete pour avoir toutes les capsules
+
+    axios.get('https://api.spacexdata.com/v3/capsules')
+    .then( (response) => {
+     // console.log(response);
+      
+      this.setState(() => ({ capsules : response.data}));
+     // console.log(this.lancement);
+     // console.log("fin de la requete all");
+    });
 
   }
   
@@ -71,7 +80,7 @@ class App extends React.Component {
       <div className="App">
           <div>
             <h2> Les lancements</h2>
-            <div class="launch-container" >
+            <div class="grid-container">
               {this.state.lancements.map((lancement) => 
                 <Launch data = {lancement}/>
               )}
@@ -80,7 +89,12 @@ class App extends React.Component {
           </div>
           <div>
             <h2>Les capsules</h2>
-            <Capsule data = {this.state.capsule}> </Capsule>
+            <div class = "grid-container">
+              {this.state.capsules.map((capsule) => 
+                <Capsule data = {capsule}/>
+              )}
+            </div>
+            
           </div>
       </div>
 

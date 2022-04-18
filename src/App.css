@@ -16,7 +16,7 @@ body {
   justify-content: center;
 }
 
-.launch-container {
+.grid-container {
   display : grid;
   grid-template-columns: repeat(10, 1fr);
   gap: 1rem;

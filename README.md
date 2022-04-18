@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<br/>
+<p align="center">
+    <a>
+        <img width="50%" src="https://images2.imgbox.com/21/dd/mwbg6Lm9_o.png" alt="logo">
+    </a>
+</p>
+<br/>
+<p align="center">
+    <a 
+        <img width="50%" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/06/europe_s_rockets/19421217-6-eng-GB/Europe_s_rockets_pillars.jpg" alt="rockets illustration">
+    </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
+<p align="center">
+   
+</p>
+<br/>
 
-## Available Scripts
+This App was made by Amandine QUANTIN, Ted-William AMOUSSOU and Maroua ELOUASSAR for a school project.
+The goal was to be more familiar with React and use some API  👨‍🎓👩‍🎓
 
-In the project directory, you can run:
+# This is what it's supposed to look like :
 
-### `npm start`
+<br/>
+<p align="center">
+    <img width="80%" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/06/europe_s_rockets/19421217-6-eng-GB/Europe_s_rockets_pillars.jpg" alt="Image of our project ">
+</p>
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This app is made to be simple and to show a view of rockets launches and capsules
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀&nbsp; Installation and Documentation
 
-### `npm test`
+:electron: Prerequisites : <br>
+install Node.js v16.14.2, you can do it on  [Nodejs website](https://nodejs.org/en/download/) <br>
+npm version : 8.3.1 <br>
+If you've previously installed create-react-app globally via npm install -g create-react-app, we recommend you uninstall the package using npm uninstall 
+-g create-react-app or yarn global remove create-react-app to ensure that npx always uses the latest version. <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When it's done you open your terminal and then type <br>
 
-### `npm run build`
+ 1️⃣ git clone {the url to the GitHub repo} 
+This clones the repo <br> 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ 2️⃣ cd into the new folder and type <br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ 3️⃣ $ npm install
+This installs the required dependencies <br>
+To run the React project.<br>
+ 4️⃣ $ npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ❤️&nbsp; Community and Contributions
 
-### `npm run eject`
+We are committed to a fully transparent development process and **highly appreciate any contributions**. Whether you are helping us fixing bugs, proposing new feature, improving our documentation 😀
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📫&nbsp; Have a question? Want to chat? Ran into a problem?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We are happy to answer your questions via [Dinergo/Space-x](https://github.com/Dinergo/space-x/discussions/4)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝&nbsp; Found a bug? Missing a specific feature?
 
-## Learn More
+Feel free to **file a new issue** with a respective title and description on the the [Dinergo/Space-x](https://github.com/Dinergo/space-x/discussions/4) repository. 
+If you already found a solution to your problem, **we would love to review your pull request**! 🙌
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📘&nbsp; License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the terms of the GPL Open Source license and is available for free.

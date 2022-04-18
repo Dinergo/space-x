@@ -10,7 +10,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      lancement :  {},
+      lancement_unique :  {},
       lancements : [],
       capsule : {},
       capsule : []
@@ -26,7 +26,7 @@ class App extends React.Component {
     .then( (response) => {
       // console.log(response);
       
-      this.setState((state) => ({ lancement : response.data}));
+      this.setState((state) => ({ lancement_unique : response.data}));
       // console.log("le data transféré dans Lancement");
      // console.log(this.lancement);
       // console.log("fin de la requete unique");
@@ -35,7 +35,7 @@ class App extends React.Component {
 
 
     // la requete pour avoir tous les lancements
-    /*
+    
     axios.get('https://api.spacexdata.com/v3/launches')
     .then( (response) => {
      // console.log(response);
@@ -44,9 +44,9 @@ class App extends React.Component {
      // console.log(this.lancement);
      // console.log("fin de la requete all");
     });
-    */
-
     
+
+
     // requete pour une capsule 
 
     axios.get('https://api.spacexdata.com/v3/capsules/C112')
@@ -69,17 +69,19 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <header className="App-header">
           <div>
             <h2> Les lancements</h2>
+            <div class="launch-container" >
+              {this.state.lancements.map((lancement) => 
+                <Launch data = {lancement}/>
+              )}
+            </div>
             
-            <Launch data = {this.state.lancement}/>
           </div>
           <div>
             <h2>Les capsules</h2>
             <Capsule data = {this.state.capsule}> </Capsule>
           </div>
-        </header>
       </div>
 
     );

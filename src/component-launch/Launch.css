@@ -1,4 +1,14 @@
 .patch {
-    width: 150px;
-    height: 150px;
+    width: 10rem;
+    height: 10rem;
+}
+
+a{
+    color: #30a7c8;
+    
+
+}
+a:hover{
+    color: #61dafb;
+
 }
